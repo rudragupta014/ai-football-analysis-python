@@ -1,0 +1,21 @@
+ultralytics==8.3.213
+supervision==0.26.1
+opencv-python==4.11.0.86
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.9.2
+scikit-learn==1.5.1
+scipy==1.13.1
+lapx==0.5.12
+# Torch stack: CPU builds on Windows for simplest setup
+# If you have CUDA, consider installing via PyTorch site
+torch==2.6.0
+torchvision==0.21.0
+torchaudio==2.6.0
+polars==1.34.0
+ultralytics-thop==2.0.17
+networkx==3.3
+seaborn==0.13.2
+plotly==5.24.0
+imageio==2.36.0
+imageio-ffmpeg==0.5.1

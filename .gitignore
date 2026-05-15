@@ -1,0 +1,53 @@
+# =========================
+# Python / Virtual Env
+# =========================
+.venv/
+venv/
+env/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs / Cache
+# =========================
+*.log
+.pytest_cache/
+
+# =========================
+# Data / Outputs / Models
+# =========================
+input_videos/
+output_videos/
+outputs/
+pass_network_outputs/
+models/
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+
+# Generated media
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Environment variables
+.env
